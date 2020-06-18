@@ -1,0 +1,87 @@
+@font-face {
+  font-family: BPGNinoMtavruli;
+  font-weight: bold;
+  src: url('./fonts/BPG_NINO_MTAVRULI_BOLD.TTF');
+}
+
+@font-face {
+  font-family: FiraGo;
+  font-weight: medium;
+  src: url('./fonts/FiraGO-SemiBoldItalic.otf');
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: BPGNinoMtavruli, FiraGo, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #202126;
+  padding: 0 0 5rem 0;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  min-height: 50rem;
+}
+
+.gutter-horizontal-sm {
+  margin-bottom: 16px;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 21px;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: #ffca2a;
+}
+
+.btn-light {
+  background-color: #ffe926;
+}
+
+.btn-big {
+  width: 100%;
+  height: 62px;
+  background-color: #764ed4;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.btn-primary-small {
+  padding: 8px 22px;
+  background-color: #ffe926;
+  border: none;
+  border-radius: 19px;
+  outline: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.f-column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
